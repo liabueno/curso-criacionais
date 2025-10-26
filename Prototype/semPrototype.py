@@ -10,3 +10,7 @@ golem_original = Golem("Fogo")
 
 # Cria um novo golem com o mesmo poder, manualmente
 golem_clone = Golem(golem_original.poder)
+
+# Saídas
+print("Poder do golem original:", golem_original.poder)
+print("Poder do golem clone:", golem_clone.poder)
